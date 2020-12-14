@@ -3,10 +3,176 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello</title>
+    <title>Site:CIT-218a</title>
+    <link rel="stylesheet" href="css.css">
+    <style>
+        h1{
+            font-size: 120%; 
+            font-family: Verdana, Arial, sans-serif;
+
+        }
+</style>
 </head>
 <body>
-    <h1>Hello World<h1>
-        <p>This is a simple paragraph.</p>
+    <!--Заголовок-->
+    <header>
+        <div id="logo" onclick="slowScroll('#top')">
+            <span><b><i>Maksym Sukmanskyi</i></b></span>
+        </div>
+        <div id="about">
+            <a href="#" title="Панель навигации" onclick="slowScroll('#navigbar')"><u><b>Панель навигации</b></u></a>
+            <a href="#" title="Рекомендуемые" onclick="slowScroll('#recommend')"><u><b>Рекомендуемые</b></u></a>
+            <a href="#" title="Поисковик" onclick="slowScroll('#search')"><u><b>Поисковик</b></u></a>
+            <a href="#" title="Уведомления" onclick="slowScroll('#faq')"><u><b>Уведомления</b></u></a>
+        </div>
+    </header>
+    <!--Фон-->
+    <div id="top">
+        <h1>Мультфильмы и мультсериалы для детей всех возрастов</h1>
+        <h3 style="font-family: 'Times New Roman', Times, serif">Собрания видеопроизведений детских жанров</h3>
+        <h6><sup>*</sup>Данный сайт создан для упрощенного поиска мультфильмов вашему ребенку в сугубо ознакомительных целях, также данный сайт не содержит видеоролики, фото, или текст которые не предназначены для лиц с неустойчивой психикой и моложе 16 лет.</h6>
+    </div>
+    <!--Панель навигации-->
+    <div id="navigbar">
+        <div class="leftblok">
+            <h2>Категории</h2><br><br>
+                        <a href="/film/biografiya/">Биографии</a><span>(255)</span><br>
+                        <a href="/film/boeviki/">Боевики</a><span>(1581)</span><br>
+                        <a href="/tags/вестерн/">Вестерны</a><span>(76)</span><br>
+                        <a href="/film/voennye/">Военные</a><span>(237)</span><br>
+                        <a href="/film/detektivy/">Детективы</a><span>(627)</span><br>
+                        <a href="/film/dokumentalnye/">Документ</a><span>(64)</span><br>
+                        <a href="/film/dramy/">Драмы</a><span>(2814)</span><br>
+                        <a href="/film/istoricheskie/">Исторические</a><span>(237)</span><br>
+                        <a href="/film/komedii/">Комедии</a><span>(1983)</span><br>
+                        <a href="/film/melodramy/">Мелодрамы</a><span>(694)</span><br>
+                        <a href="/mult/">Мультфильмы</a><span>(470)</span><br>
+                        <a href="/film/myuzikly/">Мюзиклы</a><span>(25)</span><br>
+                        <a href="/film/priklyuchniya/">Приключения</a><span>(1168)</span><br>
+                        <a href="/tags/%F1%E5%EC%E5%E9%ED%FB%E9/">Семейные</a><span>(495)</span><br>
+                        <a href="/film/sportivnye/">Cпортивные</a><span>(146)</span><br>
+                        <a href="/film/trillery/">Триллеры</a><span>(2036)</span><br>
+                        <a href="/film/fantastika/">Фантастика</a><span>(869)</span><br>
+                        <a href="/tags/%F4%FD%ED%F2%E5%E7%E8/">Фэнтези</a><span>(594)</span><br><br>
+        </div>
+        <div class="leftblock_2">
+            <div class="mini" style="border-top:0px; padding-top:0px;">
+                <h2>По году</h2><br><br>
+                <a href="/tags/2020/">2020 года</a><span>(682)</span><br>
+                <a href="/tags/2020/">2019 года</a><span>(700)</span><br>
+                <a href="/tags/2020/">2018 года</a><span>(680)</span><br>
+                <a href="/tags/2020/">2017 года</a><span>(200)</span><br>
+                <a href="/tags/2020/">2016 года</a><span>(682)</span><br>
+                <a href="/tags/2020/">2015 года</a><span>(234)</span><br>
+                <a href="/tags/2020/">2014 года</a><span>(123)</span><br>
+                <a href="/tags/2020/">2013 года</a><span>(200)</span><br>
+                <a href="/tags/2020/">2012 года</a><span>(384)</span><br>
+                <a href="/tags/2020/">2011 года</a><span>(805)</span><br>
+                <a href="/tags/2020/">2010 года</a><span>(782)</span><br>
+                <div class="poloska"></div>
+            </div>
+            <div class="mini">
+                <div class="mini">
+                    <h2>По странам</h2><br><br>
+                    <a href="/tags/США/">Американские</a><span>(3961)</span><br>
+                    <a href="/tags/Россия/">Российские</a><span>(698)</span><br>
+                    <a href="/tags/Индия/">Индийские</a><span>(135)</span><br>
+                    <a href="/tags/Германия/">Немецкие</a><span>(390)</span><br>
+                    <a href="/tags/Франция/">Французские</a><span>(528)</span><br>
+                    <a href="/tags/СССР/">Советские</a><span>(147)</span>
+                    <div class="poloska"></div>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+    <!--Рекомендуемые-->
+    <div id="recommend">
+        <h2>Рекомендуемые</h2>
+        <h4>мультфильмы</h4>
+        <div class="mult">
+            <img src="https://www.kino-teatr.ru/movie/posters/big/7/108897.jpg" alt="">
+            <span>Гнездо дракона</span>
+            <span>Год:2014</span>
+            <span>Жанр: фэнтези, приключения, семейный</span>
+            <p><a href="https://kinogo.by/3530-gnezdo-drakona-2014-smotret-onlayn.html">смотреть</a></p>
+        </div>
+        <div class="mult">
+            <img src="https://upload.wikimedia.org/wikipedia/ru/thumb/6/6b/Frozen_%282013%29.jpg/272px-Frozen_%282013%29.jpg" alt="">
+            <span>Холодное сердце</span>
+            <span>Год:2013</span>
+            <span>Жанр: мюзикл, фэнтези, комедия, мелодрама, приключения, семейный</span>
+            <p><a href="https://kinogo.by/1726-holodnoe-serdce-2013-smotret-onlayn.html">смотреть</a></p>
+        </div>
+        <div class="mult">
+            <img src="https://upload.wikimedia.org/wikipedia/ru/thumb/a/a3/How_to_Train_Your_Dragon.jpg/230px-How_to_Train_Your_Dragon.jpg" alt="">
+            <span>Как приручить дракона</span>
+            <span>Год: 2010</span>
+            <span>Жанры: мультфильм, фэнтези, комедия, приключения, семейный</span>
+            <p><a href="https://kinogo.by/273-kak-priruchit-drakona-2010_26-04.html">смотреть</a></p>
+        </div>
+        <div class="mult">
+            <img src="https://upload.wikimedia.org/wikipedia/ru/a/a2/%D0%9F%D1%80%D0%BE%D1%81%D1%82%D0%BE%D0%BA%D0%B2%D0%B0%D1%88%D0%B8%D0%BD%D0%BE_%28%D0%BF%D0%BE%D1%81%D1%82%D0%B5%D1%80%29.jpg" alt="">
+            <span>Простоквашино</span>
+            <span>Год: 2018</span>
+            <span>Жанры: детский</span>
+            <p><a href="https://kinogo.by/9655-prostokvashino.html">смотреть</a></p>
+        </div>
+    </div>
+    <!--Поисковик-->
+    <div id="search">
+        <h5>Поисковик</h5>
+        <form id="form_input">
+            <label for="name">Имя <span><sup>*</sup></span></label><br>
+            <input type="text" placeholder="Введите имя" name="name" id="name"><br>
+            <label for="genre">Жанр <span><sup>*</sup></span></label><br>
+            <input type="text" placeholder="Введите жанр" name="genre" id="genre"><br>
+            <label for="year">Год <span><sup>*</sup></span></label><br>
+            <input type="text" placeholder="Введите год выпуска" name="year" id="year"><br>
+            <div id="film_find" class="btn">Поиск</div>
+        </form>
+    </div>
+    <!--Уведомления-->
+    <div id="faq">
+        <div>
+            <span class="title">Контакты:</span><br>
+            <span class="heading">Номер телефона:</span>
+            <p><sub>+380631202648</sub></p>
+            <span class="heading">Адрес:</span>
+            <p><a href="URL"><sub>msukmanskyi@gmail.com</sub></a></p>
+        </div>
+        <div>
+            <span class="title">Тех. проблемы?:</span><br>
+            <span class="heading">Настройки:</span>
+            <p><a href="URL"><sub>Settings</sub></a></p>  
+        </div>
+        <div>
+            <span class="title">Информация:</span><br>
+            <span class="heading">Версия сайта:</span>
+            <p><sub>1.0.0</sub></p>
+            <span class="heading">Все права защищены</span>
+            <p>Maksym Sukmanskyi project</p>
+            <p>Maksym Sukmanskyi</p>
+            <p>group CIT-218a</p>
+            <p>27 september 2020</p>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        function slowScroll(id) {
+            $('html, body').animate({
+                scrollTop: $(id).offset().top
+            }, 500);
+        }
+
+        $(document).on("scroll", function (){
+            if($(window).scrollTop() === 0)
+                $("header").removeClass("fixed");
+            else
+            $("header").attr("class", "fixed"); 
+        });
+    </script>
 </body>
 </html>
